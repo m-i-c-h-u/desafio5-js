@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+
+.TODO{
+    border: 1px solid black;
+    padding: 1em;
+    background-color: rgb(253, 189, 192);
+}
+
+h1{
+    font-size: 3em;
+    margin: 0;
+    margin-left: 10px;
+}
+
+h2{
+    font-size: 1.5em;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+input{
+    padding: 4px;
+    padding-right: 10em;
+    font-size: 1em;
+    margin-left: 10px;
+}
+
+.btn-agregar{
+    background-color: rgb(172, 102, 219);
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.btn-agregar:hover{
+    background-color: rgb(148, 36, 223);
+    cursor: pointer;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-tareas{
+    margin-left: 10px;
+}
+
+.tareas{
+    margin-left: 10px;
+}
+
+.realizada {
+    background-color: lightgreen;
+}
+
+.id-tarea{
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    margin-left: 55px;
+    gap: 30px;
+    font-weight: bold;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5em;
+    padding: 0.5em;
+    border: 2px solid rgb(243, 139, 174);
+    border-radius: 5px;
+    list-style: none;
+    background-color: #f9f9f9;
+    gap: 15px;
+}
+
+.btn-borrar {
+    background-color: rgb(245, 58, 136); 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 5px; 
+    cursor: pointer;
+}
+
+.btn-cambiar {
+    background-color: rgb(56, 161, 223); 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 5px; 
+    cursor: pointer;
+}
